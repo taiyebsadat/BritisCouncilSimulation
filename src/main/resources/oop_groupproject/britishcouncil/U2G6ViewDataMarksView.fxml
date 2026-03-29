@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop_groupproject.britishcouncil.U2G6ViewDataMarksController">
+    <children>
+        <TextField fx:id="studentIdTextField" layoutX="40.0" layoutY="40.0" promptText="Student ID" />
+        <Button fx:id="checkAdminPermissionAndFetchButtonOnAction" layoutX="210.0" layoutY="40.0" text="Check Admin Permission &amp; Fetch" />
+      <Label layoutX="40.0" layoutY="22.0" text="ID:" />
+      <TableView fx:id="userDataAndMarksTableView" layoutX="24.0" layoutY="80.0" prefHeight="298.0" prefWidth="556.0">
+        <columns>
+          <TableColumn fx:id="userNameTableColumn" prefWidth="172.0" text="User Name" />
+          <TableColumn fx:id="marksTableColumn" prefWidth="384.00006103515625" text="Marks" />
+        </columns>
+      </TableView>
+    </children>
+</AnchorPane>

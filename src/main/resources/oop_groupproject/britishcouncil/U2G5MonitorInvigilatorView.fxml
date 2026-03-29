@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop_groupproject.britishcouncil.U2G5MonitorInvigilatorController">
+    <children>
+        <TextArea fx:id="invigilatorActivityAreaTextArea" layoutX="30.0" layoutY="40.0" prefHeight="150.0" prefWidth="540.0" promptText="Invigilator Activity Data" />
+        <Label layoutX="30.0" layoutY="210.0" text="Material Requests:" />
+      <TextArea fx:id="materialRequestsTextArea" layoutX="30.0" layoutY="235.0" prefHeight="150.0" prefWidth="540.0" />
+    </children>
+</AnchorPane>
